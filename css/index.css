@@ -82,6 +82,10 @@ header p {
   padding: 5% 10%;
 }
 
+#their-lives-depend-section > div {
+  width: 50%;
+}
+
 #their-lives-depend-section img {
   border-radius: 10px;
 }
@@ -90,6 +94,10 @@ header p {
 
 #they-need-us-section {
   padding: 5% 10%;
+}
+
+#they-need-us-section > div {
+  width: 50%;
 }
 
 /* Direct Help Cards Section */
