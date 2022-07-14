@@ -56,7 +56,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10%;
 }
 
 /* Header Section */
@@ -93,4 +92,30 @@ header p {
   padding: 5% 10%;
 }
 
+/* Direct Help Cards Section */
 
+#direct-help-section > div {
+  width: 70%;
+  text-align: center;
+}
+
+#direct-help-cards {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.direct-help-card {
+  background-color: #fef4f5;
+  width: 40%;
+  display: flex;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+.direct-help-card img {
+  display: block;
+  width: 25%;
+  height: 25%;
+  margin-top: 5%;
+}
