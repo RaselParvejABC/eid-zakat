@@ -10,6 +10,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 :root {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -109,14 +111,15 @@ header p {
 
 #direct-help-cards {
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
 }
 
 .direct-help-card {
   background-color: #fef4f5;
   width: 40%;
   display: flex;
-  margin-bottom: 10px;
+  gap: 15px;
   padding: 20px;
   text-align: left;
 }
@@ -126,4 +129,62 @@ header p {
   width: 25%;
   height: 25%;
   margin-top: 5%;
+}
+
+/* Hands Before Allah Section */
+#hands-before-allah-section {
+  padding: 5% 10%;
+  justify-content: space-around;
+}
+#hands-before-allah-section img {
+  width: 100%;
+}
+
+/* Extend Your Hands Section */
+#extend-your-hands-section {
+  text-align: center;
+  padding: 5% 10%;
+}
+
+#extend-your-hands-section h1 {
+  margin-top: 0;
+}
+
+#extend-your-hands-section > p {
+  margin-bottom: 3%;
+}
+
+.zakat-fund-card {
+  width: 30%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+
+.zakat-fund-card img {
+  width: 100%;
+}
+
+.zakat-fund-card .zakat-fund-card-description {
+  padding: 10%;
+  text-align: left;
+}
+
+.zakat-fund-card a {
+  color: #ef233c;
+  font-weight: 700;
+}
+
+/* Footer Section */
+footer {
+  background-color: black;
+  flex-direction: column;
+}
+footer h1 {
+  font-family: "Lobster", cursive;
+  color: #ef233c;
+  margin-bottom: 0;
+}
+
+footer p {
+  color: #d9dbe1;
 }
